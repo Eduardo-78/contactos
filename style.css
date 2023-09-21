@@ -1,0 +1,62 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;    
+}
+
+body
+{
+    background-color: rgb(127, 180, 241);
+    display: block;
+}
+
+.titulo
+{
+    text-align: center;    
+    margin: auto;
+}
+
+
+ div
+ {   
+
+     padding:10px;
+     width: 80px;    
+     margin:0;
+     padding-left:0;
+     padding-right: 0;
+
+ }
+
+img
+{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 60%;
+ 
+}
+
+.contenedor >picture
+{
+    background-color: blanchedalmond;
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 600px solid rgb(235, 232, 232);
+    height: 50px;
+}
+
+p
+{
+    letter-spacing: 1px;
+    margin-top:0;
+    margin-bottom: 1px;
+}
